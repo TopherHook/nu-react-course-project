@@ -4,7 +4,7 @@ import CampsiteCard from './CampsiteCard';
 import { selectAllCampsites } from './campsitesSlice';
 import Error from "../../components/Error";
 import Loading from "../../components/Loading";
-import { ErrorMessage } from "formik";
+// import { ErrorMessage } from "formik";
 
 const CampsitesList = () => {
     const campsites = useSelector(selectAllCampsites);
